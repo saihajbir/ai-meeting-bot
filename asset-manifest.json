@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ai-meeting-bot/static/css/main.d66cfefb.css",
+    "main.js": "/ai-meeting-bot/static/js/main.7b9aa618.js",
+    "index.html": "/ai-meeting-bot/index.html",
+    "main.d66cfefb.css.map": "/ai-meeting-bot/static/css/main.d66cfefb.css.map",
+    "main.7b9aa618.js.map": "/ai-meeting-bot/static/js/main.7b9aa618.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d66cfefb.css",
+    "static/js/main.7b9aa618.js"
+  ]
+}
