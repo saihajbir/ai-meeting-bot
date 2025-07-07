@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+# AI Meeting Bot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that provides real-time speech transcription and AI-powered meeting summaries using OpenAI's Whisper and GPT models.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🎙️ Real-time audio recording with visual feedback
+- 📝 Live transcription using OpenAI's Whisper model
+- 🤖 AI-powered meeting summaries using GPT-3.5
+- 📊 Audio visualization
+- 🎨 Modern, responsive UI with Material-UI
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you begin, ensure you have:
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- An OpenAI API key
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup
 
-### `npm test`
+1. Clone the repository:
+```bash
+git clone [your-repo-url]
+cd ai-meeting-bot
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Create a `.env` file in the root directory and add your OpenAI API key:
+```
+REACT_APP_OPENAI_API_KEY=your-api-key-here
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will be available at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Click the "Start Recording" button to begin recording
+2. Speak into your microphone
+3. The audio visualizer will show your voice input levels
+4. Click "Stop Recording" when finished
+5. The app will transcribe your audio and generate an AI summary
+6. View both the transcription and summary in their respective sections
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Technologies Used
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- TypeScript
+- Material-UI
+- OpenAI API (Whisper & GPT-3.5)
+- Web Audio API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
+
+- OpenAI for their amazing API
+- Material-UI team for the beautiful components
+- The React community for their invaluable resources
